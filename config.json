@@ -1,0 +1,15 @@
+{
+  "model_path":             "models/accident_yolov8_best.pt",
+  "recordings_dir":         "recordings",
+  "confidence_threshold":   0.55,
+  "fps":                    25,
+  "alert_phone":            "+916281319506",
+  "twilio": {
+    "account_sid":  "AC75338195f14f8a0f0ed8ed0a1d83f89a",
+    "auth_token":   "b73d8d9d6892c2f0fbd9b546c0cf419d",
+    "from_number":  "+18147706775"
+  },
+  "cameras": [
+    {"id": "CAM_01", "source": 0}
+  ]
+}
